@@ -41,7 +41,7 @@ function Nav(props) {
                      >
                       <span 
                         onClick={() => {
-                          setCurrentCategory(category)
+                          setCurrentCategory(category);
                         }} 
                         >
                         {capitalizeFirstLetter(category.name)}   
