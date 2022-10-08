@@ -5,7 +5,7 @@ import Contact from '..';
 
 afterEach(cleanup)
 
-describe('Contact component renders', () => {
+describe('Contact component', () => {
     it('renders', () => {
         render(<Contact />);
     });
@@ -13,7 +13,7 @@ describe('Contact component renders', () => {
     it('renders', () => {
         const { asFragment } = render(<Contact />)
         expect(asFragment()).toMatchSnapshot()
-    });
+    })
 })
 
 it('renders', () => {
